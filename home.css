@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#212121;
+  }
+  
+  h1, h2 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    width: 200px;
+    padding: 16px;
+    background-color: #212121;
+    height:100%;
+    border-right: 1px solid #616161;
+   color: #212121;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+  }
+  header .p {
+    font-size:20px;
+  }
+  nav ul li {
+    margin: 12px 0;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 8px;
+    display: inline-block;
+  }
+  
+  nav ul li a.active {
+    color: #9999ff;
+  }
+  
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
+  
+  main {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section ul {
+    max-width:1600px;
+    margin: 0 auto;
+  }
+  
+  section h1 {
+    font-size: 36px;
+  }
+  
+  .vertical-card {
+    border: 1px solid black;
+    border-radius:3px;
+    max-width:400px;
+    overflow: hidden;
+  }
+  
+  .vertical-card .image {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .vertical-card .content {
+    border-top: 1px solid black;
+    padding: 24px;
+    background-color: white;
+  }
+  
+  .vertical-card h2 {
+    text-align: center;
+    margin: 0 0 8px 0;
+    font-size: 36px;
+  }
+  
+  .vertical-card h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+  }
+  
+  .horizontal-card {
+    display: flex;
+    border: 1px solid grey;
+    border-radius:4px;
+    width:400px;
+    overflow: hidden;
+    height: 150px;
+  }
+  
+  .horizontal-card .content {
+    background-color: white;
+    padding: 12px;
+    width:280px;
+  }
+  
+  .horizontal-card .image {
+    min-height: 100%;
+    width: 120px;
+    background-color: black;
+  }
+  
+  .horizontal-card h2 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  
+  .total-card {
+    text-align: left;
+    border-left: 4px solid grey;
+    background-color: white;
+    width: 100%;
+    padding: 16px;
+  }
+  
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background:center center /cover url(a2.jpg) no-repeat;
+    min-height: 100vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 24px;
+  }
+  
+  #hero .header {
+    color: white;
+    font-size: 24px;
+  }
+  
+  #hero .header h1 {
+    color: white;
+    font-size: 32px;
+  }
+  #hero .header p {
+    font-style: italic;
+  }
+  
+  /* Section 1 */
+  #section1 {
+    padding: 48px 0 164px 0;  
+    background-color:#cccccc;
+  }
+  
+  #section1 h1 {
+    text-align: center;
+    margin-bottom: 36px;
+    color:#1a1a1a;
+  }
+  
+  #section1 p {
+    color: #565656;
+  }
+  
+  #section1 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  #section1 ul ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    height: 100%;
+  }
+  
+  #section1 ul ul li {
+    margin: 12px 0;
+  }
+  
+  #section1 ul > li {
+    margin: 0 64px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  #section1 .fact2 {
+    background:center center /cover url('mp1.jpg') no-repeat;
+  }
+  
+  #section1 .microbeads {
+    background:center center /cover url('toothpaste.jpg') no-repeat;
+  }
+  
+  #section1 .tires {
+    background:center center /cover url('tire.JPG') no-repeat;
+  }
+  
+  #section1 .manufacturing {
+    background:center center /cover url('factory.jpg') no-repeat;
+  }
+  
+  #section1 .fleeces {
+    background:center center /cover url('fleece.jpg') no-repeat;
+  }
+  
+  /* Section 2 */
+  #section2 {
+    background-color:#fff;
+    padding: 0 0 64px;
+  }
+  
+  #section2 .hero {
+    background:center center /cover url('mussels3.JPG') no-repeat;
+    min-height: 100vh;
+    margin-bottom: 64px;
+  }
+  
+  #section2 h1 {
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
+  
+  #section2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  #section2 ul li {
+    margin: 0 36px;
+  }
+  
+  #section2 .vertical-card .content {
+    height: 300px;
+  }
+  
+  #section2 .salt {
+    background:center center /cover url('salt.jpg') no-repeat;
+  }
+  
+  #section2 .mussel {
+    background:center center /cover url('oyster.jpg') no-repeat;
+  }
+  
+  #section2 .honey {
+    background:center center /cover url('honey.jpg') no-repeat;
+    padding-bottom:50px;
+  }
+  
+  #section2 .vertical-card .content {
+    background-color: #333333;
+    color: white;
+  }
+  
+  /* Section 3 */
+  #section3 {
+    background-color:#212121;
+    padding-bottom: 0px; color:white;
+  }
+  
+  #section3 video {
+    margin-bottom: 64px;
+  }
+  
+  #section3 h1{
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
+  
+  #section3 .graphic {
+    background: center center /cover url(graph.jpg) no-repeat;
+    height: 1540px;
+    border: 2px solid black;
+  }
+  
+  #section3 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom:64px;
+  }
+  
+  #section3 ul li {
+    margin: 0 36px;
+  }
+  
+  #section3 ul ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    height: 100%;
+  }
+  
+  #section3 .vertical-card h2 {
+    font-size: 32px;
+  }
+  
+  #section3 .vertical-card .content {
+    height: 350px;
+  }
+  
+  #section3 .vertical-card .content {
+    background-color: #e6e6e6;
+    color: #0d0d0d;
+  }
+  
+  #section3 .bottledwater {
+    background:center center /cover url('bottledwater.jpg') no-repeat;
+  }
+  
+  #section3 .tapwater {
+    background:center center /cover url('water.jpg') no-repeat;
+  }
+  
+  #section3 .beer {
+    background:center center /cover url('beer.jpg') no-repeat;
+  }
+  
+  /* Section 4 */
+  #section4 {
+    padding: 0 0 64px;
+    background-color:#212121;
+  }
+  
+  #section4 h1{
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+    color: white;
+  }
+  
+  #section4 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 64px;
+  }
+  
+  #section4 ul li {
+    margin: 0 36px;
+  }
+  
+  #section4 .home {
+    background:center center /cover url('img3-.jpg') no-repeat;
+  }
+  
+  #section4 .mountain {
+    background:center center /cover url('mountains.jpg') no-repeat;
+  }
+  
+  #section4 .graphic {
+    background: center center /cover url(a2.jpg) no-repeat;
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+  }
+  
+  #section4 .vertical-card .content {
+    height: 300px;
+  }
+  
+  /* Section 5 */
+  #section5 {
+    padding: 0 0 64px;
+    background-color: lightgrey;
+  }
+  
+  #section5 h1{
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+  }
+  
+  #section5 h2{
+    margin-left: 0px;
+    font-size:40px;
+    color:black;
+  }
+  
+  #section5 h3{
+    margin-left: 0px;
+    font-size:18px;
+    color:grey;
+  }
+  
+  #section5 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 800px;
+  }
+  
+  #section5 ul ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    height: 100%;
+  }
+  
+  #section5 ul ul li {
+    margin: 12px 0;
+  }
+  
+  #section5 ul > li {
+    margin: 0 64px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
